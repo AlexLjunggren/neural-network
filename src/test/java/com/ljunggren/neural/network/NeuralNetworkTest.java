@@ -82,7 +82,7 @@ public class NeuralNetworkTest {
     }
 
     @Test
-    public void trainTest() throws JsonMappingException, JsonProcessingException {
+    public void trainTest() throws {
         // Not sure how to test this
     }
     
