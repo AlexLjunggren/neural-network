@@ -82,7 +82,7 @@ public class NeuralNetworkTest {
     }
 
     @Test
-    public void trainTest() throws {
+    public void trainTest() {
         // Not sure how to test this
     }
     
