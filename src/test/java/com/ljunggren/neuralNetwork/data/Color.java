@@ -1,4 +1,4 @@
-package com.ljunggren.neural.network.data;
+package com.ljunggren.neuralNetwork.data;
 
 public enum Color {
 

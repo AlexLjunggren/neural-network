@@ -1,4 +1,4 @@
-package com.ljunggren.neural.network.activation;
+package com.ljunggren.neuralNetwork.activation;
 
 public class ActivationFactory {
 

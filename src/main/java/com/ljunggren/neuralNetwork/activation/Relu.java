@@ -1,17 +1,17 @@
-package com.ljunggren.neural.network.activation;
+package com.ljunggren.neuralNetwork.activation;
 
 import java.util.function.Function;
 
-public class Sigmoid implements Activation {
+public class Relu implements Activation {
 
     @Override
     public Function<Double, Double> calculate() {
-        return z -> 1 / (1 + Math.exp(-z));
+        return z -> Math.max(0, z);
     }
-    
+
     @Override
     public Function<Double, Double> derivative() {
-        return z -> z * (1 - z);
+        return z -> z <= 0.0 ? 0.0 : 1;
     }
 
 }
