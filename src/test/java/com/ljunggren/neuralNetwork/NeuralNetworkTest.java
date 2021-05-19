@@ -11,8 +11,6 @@ import java.util.stream.Collectors;
 
 import org.junit.Test;
 
-import com.ljunggren.neuralNetwork.Network;
-import com.ljunggren.neuralNetwork.NeuralNetwork;
 import com.ljunggren.neuralNetwork.activation.Activation;
 import com.ljunggren.neuralNetwork.activation.Relu;
 import com.ljunggren.neuralNetwork.activation.Sigmoid;
