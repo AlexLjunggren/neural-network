@@ -1,4 +1,4 @@
-package com.ljunggren.neuralNetwork;
+package io.ljunggren.neuralNetwork;
 
 import java.util.List;
 

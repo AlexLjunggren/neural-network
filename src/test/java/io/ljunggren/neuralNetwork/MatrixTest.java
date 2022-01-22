@@ -1,4 +1,4 @@
-package com.ljunggren.neuralNetwork;
+package io.ljunggren.neuralNetwork;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;

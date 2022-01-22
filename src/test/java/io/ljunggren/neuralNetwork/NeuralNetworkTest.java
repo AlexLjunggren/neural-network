@@ -1,4 +1,4 @@
-package com.ljunggren.neuralNetwork;
+package io.ljunggren.neuralNetwork;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
@@ -11,10 +11,10 @@ import java.util.stream.Collectors;
 
 import org.junit.Test;
 
-import com.ljunggren.neuralNetwork.activation.Activation;
-import com.ljunggren.neuralNetwork.activation.Relu;
-import com.ljunggren.neuralNetwork.activation.Sigmoid;
-import com.ljunggren.neuralNetwork.data.Color;
+import io.ljunggren.neuralNetwork.activation.Activation;
+import io.ljunggren.neuralNetwork.activation.Relu;
+import io.ljunggren.neuralNetwork.activation.Sigmoid;
+import io.ljunggren.neuralNetwork.data.Color;
 
 public class NeuralNetworkTest {
     
