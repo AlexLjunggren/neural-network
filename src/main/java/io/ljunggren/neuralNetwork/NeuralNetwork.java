@@ -1,12 +1,11 @@
-package com.ljunggren.neuralNetwork;
+package io.ljunggren.neuralNetwork;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.ljunggren.neuralNetwork.activation.Activation;
-import com.ljunggren.neuralNetwork.activation.ActivationFactory;
-import com.ljunggren.neuralNetwork.activation.Sigmoid;
-
+import io.ljunggren.neuralNetwork.activation.Activation;
+import io.ljunggren.neuralNetwork.activation.ActivationFactory;
+import io.ljunggren.neuralNetwork.activation.Sigmoid;
 import lombok.Getter;
 
 @Getter
